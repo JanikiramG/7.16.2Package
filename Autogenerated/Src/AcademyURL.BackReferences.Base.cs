@@ -13,7 +13,7 @@
 	{
 
 		#region Constructors: Public
-		//test1
+		//test12
 		public AcademyURL(UserConnection userConnection)
 			: base(userConnection) {
 		}
