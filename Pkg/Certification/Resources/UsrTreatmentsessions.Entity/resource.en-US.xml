@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Treatment sessions" />
+			<Item Name="Columns.UsrOperator.Caption" Value="Operator" />
+			<Item Name="Columns.UsrPrice.Caption" Value="Price" />
+			<Item Name="Columns.UsrSessiondurationminutes.Caption" Value="Session duration minutes" />
+			<Item Name="Columns.UsrSessionstatus.Caption" Value="Session status" />
+			<Item Name="Columns.UsrTreatmentPrograms.Caption" Value="Treatment Programs" />
+			<Item Name="Columns.UsrTreatmentsessiondate.Caption" Value="Treatment session date" />
+		</Items>
+	</Group>
+</Resources>

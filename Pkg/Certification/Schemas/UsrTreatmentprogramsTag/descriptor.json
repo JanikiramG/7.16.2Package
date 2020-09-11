@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "34127553-1ef8-445f-9027-53f1ce0c1cde",
+    "Name": "UsrTreatmentprogramsTag",
+    "ModifiedOnUtc": "\/Date(1598706984000)\/",
+    "Parent": {
+      "UId": "9e3f203c-e905-4de5-9468-335b193f2439",
+      "Name": "BaseTag"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Treatment programs section tag",
+    "DependsOn": []
+  }
+}

@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Section schema: &quot;Treatment programs&quot;" />
+			<Item Name="LocalizableStrings.Caption.Value" Value="Treatment programs" />
+			<Item Name="LocalizableStrings.CreateTreatSessions.Value" Value="Create Treatment Sessions" />
+		</Items>
+	</Group>
+</Resources>

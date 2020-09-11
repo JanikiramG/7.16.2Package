@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "e0c94b90-63ff-4620-9eb8-7acd5224cf82",
+    "Name": "UsrSchemad8b25c6eDetail",
+    "ModifiedOnUtc": "\/Date(1598710706000)\/",
+    "Parent": {
+      "UId": "01eb38ee-668a-42f0-999d-c2534f979089",
+      "Name": "BaseGridDetailV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Detail schema: \"Treatment sessions\"",
+    "DependsOn": []
+  }
+}

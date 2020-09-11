@@ -1,0 +1,93 @@
+﻿
+.setup-hierarchy-button {
+	right: 10px;
+}
+
+.hierarchy-container-list {
+	width: 95%;
+	margin-left: 24px;
+	margin-top: 10px;
+	max-height: 320px;
+	overflow-y: auto;
+	overflow-x: hidden;
+
+	@media screen and (max-height: 1024px) {
+		max-height: 190px;
+	}
+
+	.base-edit.base-edit-readonly {
+		background-color: transparent;
+
+		input {
+			background-color: transparent;
+		}
+	}
+}
+
+.items-hierarchy-container {
+	display: block;
+	align-items: flex-end;
+	width: 100%;
+}
+
+.hierarchy-container-item.control-width-15 {
+	display: block;
+
+	.hierarchy-label {
+		text-align: left;
+	}
+}
+
+.hierarchy-input-container {
+	display: inline-flex;
+	width: 100%;
+	max-height: 28px;
+
+	.base-edit-readonly {
+		width: 245px;
+	}
+
+	.delete-hierarchy-button {
+
+		span {
+			width: 32px;
+			height: 32px;
+			padding: 0;
+		}
+	}
+
+}
+
+.setup-hierarchy-button {
+	color: #4E7BD8;
+
+	.t-btn-image{
+		background-repeat: no-repeat;
+	}
+}
+
+div[data-item-marker="ForecastMiniPageContainer"] {
+	.minipage-alignable-container.show-overlay {
+		z-index: 1011;
+	}
+	.alignable-container-overlay {
+		z-index: 1010;
+	}
+}
+
+.primary-display-container {
+	display: inline;
+	font-size: 11px;
+
+	&-label {
+		color: red;
+		display: inherit;
+		font-size: inherit;
+		text-align: justify;
+	}
+
+	&-hyperlink{
+		font-size: inherit;
+		display: inherit;
+	}
+}

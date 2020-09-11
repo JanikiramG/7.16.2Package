@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "5f7c9379-4a6c-4e1f-92fb-d8473b9a7957",
+    "Name": "UsrTreatmentprogramsFolder",
+    "ModifiedOnUtc": "\/Date(1598706982000)\/",
+    "Parent": {
+      "UId": "d602bf96-d029-4b07-9755-63c8f5cb5ed5",
+      "Name": "BaseFolder"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Treatment programs folder",
+    "DependsOn": []
+  }
+}

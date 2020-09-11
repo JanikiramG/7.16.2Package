@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Edit page: &quot;Treatment programs&quot;" />
+			<Item Name="LocalizableStrings.ADPValidationMessage.Value" Value="No more than 3 daily treatment programs can be active at a time." />
+			<Item Name="LocalizableStrings.CreateTreatSessions.Value" Value="Create Treatment Sessions" />
+			<Item Name="LocalizableStrings.Tab0bbaf39aTabLabelTabCaption.Value" Value="Treatment sessions" />
+		</Items>
+	</Group>
+</Resources>

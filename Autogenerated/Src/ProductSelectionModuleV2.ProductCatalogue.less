@@ -1,0 +1,251 @@
+﻿.center-panel {
+	height: 100vh;
+}
+
+.center-panel-content {
+	height: 100%;
+}
+
+.default-center-panel-content {
+	height: 100%;
+}
+
+.workingAreaContainer-class {
+	display: flex;
+	height: 95%;
+	width: 100%;
+}
+
+.center-panel-content #utilsContainer {
+	min-width: 1030px;
+}
+
+.left-panel-collapsed .center-panel-content #utilsContainer {
+	width: calc(91.5% * 0.98 - 345px);
+}
+
+.actionButtonsContainer-class {
+	min-width: 88em;
+	.t-btn-wrapper {
+		margin-right: 10px;
+	}
+}
+
+.summaryContainer-class {
+	display: inline-block;
+	width: 100%;
+	.summaryStringContainer-class {
+		float: right;
+	}
+}
+
+.leftModulesContainer-class {
+	overflow-x: hidden;
+	overflow-y: hidden;
+	min-width: 320px;
+	height: 100%;
+	border-right: solid 1px #e1e8f2;
+}
+
+.leftModulesContainer-class:hover {
+	overflow-y: auto;
+}
+
+.rightModulesContainer-class {
+	flex: 3;
+	min-width: 56em;
+}
+
+.viewActionsContainer-class {
+	display: inline-block;
+	float: right;
+	margin-right: 1.3em;
+}
+
+.searchContainer-class {
+	display: inline-block;
+	margin-left: 19.5em;
+	width: 50%;
+}
+
+.folder-manager-button-right {
+	right: 12px;
+}
+
+.folder-manager-left-container .grid-row-actions {
+	margin-left: auto;
+}
+
+div#quickSearchModuleButtons-container {
+	float: left;
+}
+
+div#quickSearchModuleSearchTextEdit-container {
+	float: left;
+	width: 65%;
+	min-width: 20%;
+}
+
+div#summaryStringContainer {
+	z-index: -1;
+	margin-right: 3em;
+}
+
+/*
+ ContainerList columns classes
+*/
+.productSelectionContainer-class {
+	height: 100%;
+
+	.grid-label, .grid label {
+		margin-right: 0;
+	}
+	.grid-layout-column {
+		padding-right: 1em;
+	}
+	.gridContainer-class {
+		margin-left: 2%;
+		margin-right: 2%;
+		min-width: 48em;
+	}
+
+	@media (max-height: 850px) {
+		.productsList {
+			max-height: 68vh;
+		}
+	}
+
+	@media (min-height: 850px) {
+		.productsList {
+			max-height: 80vh;
+		}
+	}
+
+	.productsList {
+		margin-left: 6px;
+		overflow-y: auto;
+		.grid-label, label {
+			color: inherit;
+		}
+	}
+	.gridCaption-container {
+		background-color: white;
+		min-width: 80em;
+		border-bottom: 1px solid #e0e0e0;
+		top: 14em;
+		height: 4em;
+		vertical-align: middle;
+		padding-top: 1.3em;
+		color: #999999;
+	}
+	.rowContainer {
+		vertical-align: middle;
+		display: block;
+		margin: 0;
+		padding: 0 6px 0 0;
+	}
+	.rowContainer label,
+	.gridRowCheckBoxCheckBoxEdit {
+		margin-top: 0.5em;
+	}
+	.rowContainer .base-edit > input {
+		font-size: 1em !important;
+	}
+	.gridRowLabel {
+		margin-right: 10px;
+		vertical-align: middle;
+	}
+	.gridRowTextEdit {
+		margin-right: 10px;
+	}
+	.gridRowComboBoxEdit {
+		margin-right: 10px;
+	}
+	.gridRowAvailableLabel,
+	.gridRowAvailableLabelLabel {
+		text-align: right;
+		padding-right: 10px !important;
+	}
+	.gridRowAvailableLabelLabel {
+		text-overflow: ellipsis;
+	}
+	.gridRowAvailableInImageImageView {
+		margin-top: 0.5em;
+	}
+	.gridRowAvailableInImageImageView img {
+		width: 1.4em;
+	}
+	.gridRowAvailableInLabelLabel {
+		width: auto;
+	}
+	.summary-label-class {
+		color: #999999;
+		font-size: 1.4em;
+		margin: 0.15em 0 -0.25em 0;
+	}
+	.summary-highlight-label-class {
+		color: #8ecb60;
+		font-size: 1.6em;
+	}
+	.summary-label-container-class {
+		padding-right: 0.5em;
+		margin: 0.1em 0 -0.25em 0;
+		float: left;
+		/* overflow: visible; */
+	}
+	.grid-listed-row [class*='grid-cols-'].base-edit {
+		font-size: 0.75em;
+		height: 30px;
+		margin-right: 6px;
+		padding-left: 6px;
+		border: 1px solid transparent;
+		border-bottom: 1px dotted #c8c8c8;
+		clear: none;
+	}
+	.grid-listed-row [class*='grid-cols-'].base-edit:hover {
+		border: 1px solid #c8c8c8;
+	}
+	.grid.grid-listed [class*='grid-cols-'].data-label {
+		color: rgb(68, 68, 68);
+	}
+	.extend-catalogue-filter-container {
+		margin-top: 1em;
+		margin-left: 0px !important;
+	}
+	.extended-filter-attributes-button-container {
+		margin-left: 0px !important;
+	}
+	.no-folders > .leftModulesContainer-class {
+		display: none;
+	}
+	.no-folders > .rightModulesContainer-class {
+		left: -3em;
+	}
+	.gridRowUnitEnumListComboBoxEdit .base-edit-right-icon-wrapper {
+		background-color: white;
+	}
+	.gridRowCountLabelCaption {
+		text-align: right;
+		padding-right: 10px;
+	}
+	.specification-filter-container .grid-listed-row {
+		padding-left: 30px;
+	}
+	.grid-listed-icon-16x16 {
+		margin-top: 0.175em;
+		height: 16px;
+		width: 16px;
+		min-height: 16px;
+		min-width: 16px;
+	}
+	.base-edit-validation {
+		font-size: inherit;
+	}
+}
+
+
+&.x-edge {
+	.main-header .left-header-container-class {
+		z-index: -1;
+	}
+}

@@ -1,0 +1,3 @@
+﻿define("SectionWizardCasesSettingsStyles", function() {
+	return {};
+});

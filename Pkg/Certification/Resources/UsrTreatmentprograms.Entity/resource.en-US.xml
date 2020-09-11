@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Treatment programs" />
+			<Item Name="Columns.UsrCode.Caption" Value="Code" />
+			<Item Name="Columns.UsrIsActive.Caption" Value="Active" />
+			<Item Name="Columns.UsrName.Caption" Value="Name" />
+			<Item Name="Columns.UsrNotes.Caption" Value="Notes" />
+			<Item Name="Columns.UsrNotes1.Caption" Value="Notes" />
+			<Item Name="Columns.UsrOwner.Caption" Value="Owner" />
+			<Item Name="Columns.UsrTitle.Caption" Value="Title" />
+			<Item Name="Columns.UsrTreatmentprogramfrequency.Caption" Value="Treatment program frequency" />
+		</Items>
+	</Group>
+</Resources>

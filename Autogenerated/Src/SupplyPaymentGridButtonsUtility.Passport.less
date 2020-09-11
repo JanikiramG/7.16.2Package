@@ -1,0 +1,86 @@
+﻿@editableGridButtonColor: #4e7bd8;
+
+.editable-grid-button {
+	.t-btn-text {
+		color: @editableGridButtonColor;
+		font-size: 1em;
+		line-height: 25px;
+		padding: 0;
+		&:hover {
+			color: @editableGridButtonColor;
+			text-decoration: underline;
+		}
+	}
+}
+.supply-payment-products-modal-box {
+	-moz-transition: height .1s ease-in;
+	-ms-transition: height .1s ease-in;
+	-o-transition: height .1s ease-in;
+	-webkit-transition: height .1s ease-in;
+	transition: height .1s ease-in;
+	.t-btn-text {
+		line-height: 1.2em;
+		margin-right: 0.8em;
+		width: 85px;
+	}
+	.fixed-area-container {
+		display: inline-block;
+		height: 100%;
+		padding: 0 40px 0 24px;
+		width: 100%;
+	}
+	.summary-item-container {
+		margin-top: 0;
+	}
+	.t-label {
+		width: auto;
+	}
+	.header {
+		display: inline-block;
+		margin-bottom: 20px;
+		width: 100%;
+	}
+	.header-name-container-full {
+		padding-top: 4px;
+	}
+	.header-name-container {
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		display: inline-block;
+		padding-right: 15px;
+		vertical-align: top;
+		width: 45%;
+		.t-label {
+			color: #64b8df;
+			font-family: "Segoe UI Light";
+			font-size: 2.2em;
+			letter-spacing: -0.01em;
+		}
+	}
+	.modal-box-schema-module-content {
+		margin-top: 0;
+		overflow: auto;
+		&.schema-wrap.one-el{
+			height: auto;
+		}
+	}
+	.close-btn-user-class {
+		position: absolute;
+		right: 0.5em;
+		top: 11px;
+	}
+}
+.product-buttons-container {
+	.editable-grid-button {
+		float: left;
+	}
+}
+.editable-grid-button.clear-products {
+	margin: 0.7em 0 0 0.5em;
+	span {
+		height: 16px;
+		padding: 0;
+		width: 16px;
+	}
+}

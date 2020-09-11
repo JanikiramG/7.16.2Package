@@ -1,0 +1,13 @@
+﻿{
+  "Descriptor": {
+    "UId": "b2b22e09-353f-4206-9f82-683dde12df96",
+    "Name": "UsrTreatmentprograms1Page",
+    "ModifiedOnUtc": "\/Date(1598764061000)\/",
+    "Parent": {
+      "UId": "d62293c0-7f14-44b1-b547-735fb40499cd",
+      "Name": "BaseModulePageV2"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Edit page: \"Treatment programs\""
+  }
+}
